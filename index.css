@@ -1,0 +1,227 @@
+*{
+    padding: 0%;
+     margin: 0%;
+     font-family: "josefin sans",sans-shreif; 
+   }
+   .container{
+     width: 100%;
+     height: 100vh;
+     background-color: black;
+   }
+   nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: auto;
+     width: 80%;
+   }
+   nav ul li{
+     display: inline-block;
+     padding: 50px 32px;
+   }
+   nav ul li a{
+     text-decoration: none;
+     color: wheat;
+     font-weight: bold;
+     list-style: none;
+     transition: 0.5s;
+   }
+   nav ul li a:hover{
+     color: red;
+   }
+   .logo{
+     color: wheat;
+     font-size: 45px;
+   }
+   span{
+     color: #f9004d;
+   }
+   .btn-subs{
+     background-color: #f9004d;
+     color: white;
+     text-decoration: none;
+     padding: 7px 25px;
+     border-radius: 30%;
+     transition: 0.5s;
+   }
+   .btn-subs:hover{
+     transform: scale(1.1);
+   }
+   .content{
+     margin-left: 8%;
+     margin-top: 12%;
+   }
+   .content .img img{
+     width: 435px;
+   }
+   .content .text{
+   width: 100%;
+   line-height: 64px;
+   color: wheat;
+   }
+   .content .text h5{
+     font-size: 23px;
+     color: #fcfc;
+     letter-spacing: 2px;
+   }
+   .content .text h1{
+     font-size: 75px;
+     letter-spacing: 1px;
+   }
+   .content .text h3{
+     font-size: 25px;
+     letter-spacing: 1px;
+   }
+   .cv{
+     text-decoration: none;
+     color: wheat;
+     background-color: #f9004d;
+     padding: 7px 30px;
+     border-radius: 30px;
+     box-shadow: 0px 0px 5px black, 0px 0px 8px  #858585; 
+     transition: 0.5s;
+   }
+   .cv :hover:{
+    
+    background-color: transparent;
+    outline: none;
+    border: #f9004d 2px solid; 
+   }
+   .content .img{
+     width: 35%;
+     height: 80%;
+     position: absolute;
+     bottom: 0px;
+     right: 50px;
+   }
+   .About{
+     width: 100%;
+     padding: 78px 0px;
+     background-color: black;
+   }
+   
+   .About img{
+     height: auto;
+     width: 420px;
+   }
+   .about-text{
+     width: 550px;
+   }
+   .main{
+   width: 1130px;
+   max-width: 95%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   }
+   .about-text h1{
+     color: wheat;
+     font-size: 80px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+   }
+   .about-text h5{
+     color: wheat;
+     font-size: 25px;
+     text-transform: capitalize;
+     margin-bottom: 25px;
+     letter-spacing: 2px;
+   }
+   .about-text{
+     color: wheat;
+     letter-spacing: 1px;
+     line-height: 28px;
+     font-size: 18px;
+     margin-bottom: 45px;
+   }
+   .Work{
+     width: 100%;
+     padding: 78px 0px;
+     background-color: black;
+   }
+   body{
+     background-color: black;
+     font-family: Helvetica, Arial, sans-serif;
+   }
+   .back{
+     width: 50%;
+     margin: 0 auto;
+   }
+   @keyframes load{
+     from {
+       width: 0%
+     }
+   }
+   @-webkit-keyframes load{
+     from {
+       width: 0%
+     }
+   }
+   @-moz-keyframes load{
+     from {
+       width: 0%
+     }
+   }
+   @-o-keyframes load{
+     from {
+       width: 0%
+     }
+   }
+   
+   .bar{
+     background-color: #EEE;
+     padding: 2px;
+     border-radius: 15px;
+     margin-bottom: 5px;
+     font-size: 14px;
+     color: #FFF;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+   }
+   .bar::before{
+     content:  attr(data-skill);
+     background-color: #f3b0ff;
+     display: inline-block;
+     padding: 5px 0 5px 10px;
+     border-radius: inherit;
+     animation: load 2s 0s;
+     -webkit-animation: load 2s 0s;
+     -moz-animation: load 2s 0s;
+     -o-animation: load 2s 0s;
+   }
+   
+   .bar.front::before{
+     background-color: #ffcc33;
+   }
+   .bar.back::before{
+     background-color: #a6cfe3;
+   }
+   
+   .bar.learning::before{
+     width: calc(20% - 10px);
+   }
+   .bar.basic::before{
+     width: calc(40% - 10px);
+   }
+   .bar.intermediate::before{
+     width: calc(60% - 10px);
+   }
+   .bar.advanced::before{
+     width: calc(80% - 10px);
+   }
+   .bar.expert::before{
+     width: calc(100% - 10px);
+   }
+   h1{
+     color: wheat;
+     font-size: 80px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+   }
+   h2{
+     color: wheat;
+     font-size: 80px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+   }
